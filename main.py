@@ -4,8 +4,8 @@ Signos del Zodiaco.
 :v
 29/09/2020.
 """
-dia = int(input("Día de nacimiento en n enteros:    "))
-mes = int(input("Mes de nacimiento en n enteros:    "))
+dia = int(input("Ingrese el dia: "))
+mes = int(input("Ingrese el mes: "))
 
 if (31>= dia >=21 and mes == 3 ) or (1<= dia <=20 and mes ==4):
     print("aries") #1
